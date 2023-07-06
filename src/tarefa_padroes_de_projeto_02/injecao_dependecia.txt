@@ -1,0 +1,6 @@
+Injeção de dependências é  padrão de projeto usado para facilitar a gerenciamento de dependências entre objetos
+Em vez de um objeto criar diretamente suas dependências, elas são fornecidas (ou injetadas) por uma entidade externa
+Dentros os beficícios estão:
+ - Desacoplamento
+ - Testabilidade
+ - Reutilização
