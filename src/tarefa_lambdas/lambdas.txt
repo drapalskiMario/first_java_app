@@ -1,0 +1,6 @@
+- Expressões lambda são funções anônimas que podem ser tratadas como valores e passadas como argumentos para métodos ou atribuídas a variáveis
+
+- Ela pode ser entendida como uma maneira compacta de definir uma implementação de um método em uma interface funcional sem precisar escrever uma classe separada para isso
+
+- A principal diferença entre expressões lambda e expressões normais (como métodos regulares) é a forma como elas são declaradas e usadas. Enquanto os métodos regulares são
+    definidos explicitamente em uma classe e têm um nome, parâmetros e corpo, as expressões lambda são definidas diretamente no contexto em que são usadas e não possuem um nome específico.
