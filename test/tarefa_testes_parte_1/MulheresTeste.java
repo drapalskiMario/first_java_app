@@ -24,6 +24,6 @@ public class MulheresTeste {
         var mulheres = mulher.obterSomenteMulheres(pessoas);
 
         Assert.assertFalse(mulheres.isEmpty());
-        Assert.assertEquals(mulheres.size(), 3);
+        Assert.assertEquals( 3, mulheres.size());
     }
 }
