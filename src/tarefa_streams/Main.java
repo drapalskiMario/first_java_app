@@ -3,16 +3,14 @@ package tarefa_streams;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
-import java.util.stream.Collectors;
 
 public class Main {
 
     public static void main(String[] args) {
         var pessoas = lerPessoas();
-        var mulheres = pessoas
-                .stream()
-                .filter(p -> p.getSexo().equals("F"))
-                .collect(Collectors.toList());
+
+        var mulher = new Mulher();
+        var mulheres = mulher.obterSomenteMulheres(pessoas);
 
         System.out.println("*************");
 
