@@ -6,7 +6,6 @@ import tarefa_streams.Mulher;
 import tarefa_streams.Pessoa;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 public class MulheresTeste {
 
@@ -24,6 +23,6 @@ public class MulheresTeste {
         var mulheres = mulher.obterSomenteMulheres(pessoas);
 
         Assert.assertFalse(mulheres.isEmpty());
-        Assert.assertEquals( 3, mulheres.size());
+        Assert.assertEquals(3, mulheres.size());
     }
 }

@@ -2,8 +2,6 @@ package streams.op_intermediarias;
 
 import streams.Pessoa;
 
-import java.util.Comparator;
-
 public class Distinct {
 
     public static void main(String[] args) {

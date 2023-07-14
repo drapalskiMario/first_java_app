@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7492e59-8407-4914-a549-e63a3f513e7f" name="Changes" comment="tarefa lambda">
-      <change afterPath="$PROJECT_DIR$/src/streams/Pessoa.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/op_intermediarias/Distinct.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/op_intermediarias/Filter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/op_intermediarias/Map.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/op_intermediarias/Sorted.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/op_terminais/AllMatch.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/op_terminais/Collect.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/op_terminais/Count.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/streams/op_terminais/ForEach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_streams/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_streams/Pessoa.java" afterDir="false" />
+    <list default="true" id="f7492e59-8407-4914-a549-e63a3f513e7f" name="Changes" comment="correcao conforme lint">
+      <change afterPath="$PROJECT_DIR$/src/contrato/ContratoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contrato/ContratoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/contrato/IContratoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarera_testes_parte_2/ContratServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarera_testes_parte_2/mock/MockContratoDAO.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/first_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first_project.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/Pessoa.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/op_intermediarias/Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_intermediarias/Distinct.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/op_intermediarias/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_intermediarias/Filter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/op_intermediarias/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_intermediarias/Map.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/op_intermediarias/Sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_intermediarias/Sorted.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/op_terminais/AllMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_terminais/AllMatch.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/op_terminais/Collect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_terminais/Collect.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/op_terminais/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_terminais/Count.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/op_terminais/ForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_terminais/ForEach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/tarefa_testes_parte_1/MulheresTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tarefa_testes_parte_1/MulheresTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,9 +28,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="Enum" />
         <option value="AnnotationType" />
+        <option value="JUnit4 Test Class" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -52,22 +58,40 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/projects/java/first_project/src/tarefa_reflections&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;editor.preferences.fonts.default&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Downloaded.Files.Path.Enabled": "false",
+    "Repository.Attach.Annotations": "false",
+    "Repository.Attach.JavaDocs": "false",
+    "Repository.Attach.Sources": "false",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
+    "last_opened_file_path": "D:/projects/java/first_project/src/tarefa_reflections",
+    "project.structure.last.edited": "Project",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="contrato" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\projects\java\first_project\src\tarefa_reflections" />
       <recent name="D:\apps\java\first_project\src\projeto01" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="tarefa_testes" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="first_test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="streams.op_terminais" />
@@ -77,79 +101,93 @@
       <recent name="design_patterns.creational.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Collect" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.op_terminais.Collect" />
+  <component name="RunManager" selected="JUnit.ContratServiceTest">
+    <configuration name="CalculadoraTeste.testeSoma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.op_terminais.*" />
+          <option name="PATTERN" value="tarefa_testes_parte_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tarefa_testes" />
+      <option name="MAIN_CLASS_NAME" value="tarefa_testes_parte_1.CalculadoraTeste" />
+      <option name="METHOD_NAME" value="testeSoma" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Count" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.op_terminais.Count" />
+    <configuration name="ContratServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.op_terminais.*" />
+          <option name="PATTERN" value="tarera_testes_parte_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tarera_testes_parte_2" />
+      <option name="MAIN_CLASS_NAME" value="tarera_testes_parte_2.ContratServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Distinct" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.op_intermediarias.Distinct" />
+    <configuration name="ContratServiceTest.erroAoSalvar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.op_intermediarias.*" />
+          <option name="PATTERN" value="tarera_testes_parte_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tarera_testes_parte_2" />
+      <option name="MAIN_CLASS_NAME" value="tarera_testes_parte_2.ContratServiceTest" />
+      <option name="METHOD_NAME" value="erroAoSalvar" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ForEach" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="streams.op_terminais.ForEach" />
+    <configuration name="ContratServiceTest.salvarComSuccesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="streams.op_terminais.*" />
+          <option name="PATTERN" value="tarera_testes_parte_2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tarera_testes_parte_2" />
+      <option name="MAIN_CLASS_NAME" value="tarera_testes_parte_2.ContratServiceTest" />
+      <option name="METHOD_NAME" value="salvarComSuccesso" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="tarefa_streams.Main" />
+    <configuration name="MulheresTeste.somenteMulheresTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarefa_streams.*" />
+          <option name="PATTERN" value="tarefa_testes_parte_1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="tarefa_testes_parte_1" />
+      <option name="MAIN_CLASS_NAME" value="tarefa_testes_parte_1.MulheresTeste" />
+      <option name="METHOD_NAME" value="somenteMulheresTeste" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.Collect" />
-        <item itemvalue="Application.Count" />
-        <item itemvalue="Application.ForEach" />
-        <item itemvalue="Application.Distinct" />
+        <item itemvalue="JUnit.ContratServiceTest" />
+        <item itemvalue="JUnit.ContratServiceTest.erroAoSalvar" />
+        <item itemvalue="JUnit.ContratServiceTest.salvarComSuccesso" />
+        <item itemvalue="JUnit.MulheresTeste.somenteMulheresTeste" />
+        <item itemvalue="JUnit.CalculadoraTeste.testeSoma" />
       </list>
     </recent_temporary>
   </component>
@@ -246,7 +284,28 @@
       <option name="project" value="LOCAL" />
       <updated>1689211521359</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="tarefa streams">
+      <created>1689217274477</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689217274477</updated>
+    </task>
+    <task id="LOCAL-00014" summary="tarefa testes parte 1">
+      <created>1689344491135</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689344491135</updated>
+    </task>
+    <task id="LOCAL-00015" summary="correcao conforme lint">
+      <created>1689344545625</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689344545625</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -272,10 +331,18 @@
     <MESSAGE value="tarefa annotation" />
     <MESSAGE value="tarefa reflection" />
     <MESSAGE value="tarefa lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="tarefa lambda" />
+    <MESSAGE value="tarefa streams" />
+    <MESSAGE value="tarefa testes parte 1" />
+    <MESSAGE value="correcao conforme lint" />
+    <option name="LAST_COMMIT_MESSAGE" value="correcao conforme lint" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
     <select />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/first_project$CalculadoraTeste_testeSoma.ic" NAME="CalculadoraTeste.testeSoma Coverage Results" MODIFIED="1689343232076" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>tarefa_testes.*</FILTER>
+    </SUITE>
   </component>
 </project>
