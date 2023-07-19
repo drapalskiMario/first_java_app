@@ -1,24 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f7492e59-8407-4914-a549-e63a3f513e7f" name="Changes" comment="correcao conforme lint">
-      <change afterPath="$PROJECT_DIR$/src/contrato/ContratoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contrato/ContratoService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/contrato/IContratoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tarera_testes_parte_2/ContratServiceTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tarera_testes_parte_2/mock/MockContratoDAO.java" afterDir="false" />
+    <list default="true" id="f7492e59-8407-4914-a549-e63a3f513e7f" name="Changes" comment="tarefa testes parte 2">
+      <change afterPath="$PROJECT_DIR$/src/projeto_02/dao/IClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projeto_02/dao/impl/ClienteDAOImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projeto_02/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projeto_02/exceptions/ClienteNãoEncontradoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projeto_02/service/IClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/projeto_02/service/impl/ClienteServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/projeto_02/ClienteDAOImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/first_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/Pessoa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/Pessoa.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/op_intermediarias/Distinct.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_intermediarias/Distinct.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/op_intermediarias/Filter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_intermediarias/Filter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/op_intermediarias/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_intermediarias/Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/op_intermediarias/Sorted.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_intermediarias/Sorted.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/op_terminais/AllMatch.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_terminais/AllMatch.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/op_terminais/Collect.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_terminais/Collect.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/op_terminais/Count.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_terminais/Count.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/streams/op_terminais/ForEach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/design_patterns/streams/op_terminais/ForEach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/test/tarefa_testes_parte_1/MulheresTeste.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/tarefa_testes_parte_1/MulheresTeste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -31,6 +23,7 @@
         <option value="Enum" />
         <option value="AnnotationType" />
         <option value="JUnit4 Test Class" />
+        <option value="package-info" />
         <option value="Interface" />
         <option value="Class" />
       </list>
@@ -70,14 +63,17 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
     "last_opened_file_path": "D:/projects/java/first_project/src/tarefa_reflections",
-    "project.structure.last.edited": "Project",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
-    "settings.editor.selected.configurable": "editor.preferences.fonts.default"
+    "settings.editor.selected.configurable": "Errors"
   }
 }]]></component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="projeto_02.dao.impl" />
+      <recent name="projeto_02.dao" />
+      <recent name="projeto_02.domain" />
       <recent name="contrato" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -94,100 +90,99 @@
       <recent name="first_test" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="projeto_02.dao.impl" />
+      <recent name="projeto_02" />
       <recent name="streams.op_terminais" />
       <recent name="streams.op_intermediarias" />
       <recent name="tarafa_generics" />
-      <recent name="tarefa_padroes_de_projeto_01" />
-      <recent name="design_patterns.creational.builder" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ContratServiceTest">
-    <configuration name="CalculadoraTeste.testeSoma" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.ClienteServiceImplTest">
+    <configuration name="ClienteDAOImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarefa_testes_parte_1.*" />
+          <option name="PATTERN" value="projeto_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tarefa_testes" />
-      <option name="MAIN_CLASS_NAME" value="tarefa_testes_parte_1.CalculadoraTeste" />
-      <option name="METHOD_NAME" value="testeSoma" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ContratServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tarera_testes_parte_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tarera_testes_parte_2" />
-      <option name="MAIN_CLASS_NAME" value="tarera_testes_parte_2.ContratServiceTest" />
+      <option name="PACKAGE_NAME" value="projeto_02" />
+      <option name="MAIN_CLASS_NAME" value="projeto_02.ClienteDAOImplTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContratServiceTest.erroAoSalvar" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteDAOImplTest.atualizarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarera_testes_parte_2.*" />
+          <option name="PATTERN" value="projeto_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tarera_testes_parte_2" />
-      <option name="MAIN_CLASS_NAME" value="tarera_testes_parte_2.ContratServiceTest" />
-      <option name="METHOD_NAME" value="erroAoSalvar" />
+      <option name="PACKAGE_NAME" value="projeto_02" />
+      <option name="MAIN_CLASS_NAME" value="projeto_02.ClienteDAOImplTest" />
+      <option name="METHOD_NAME" value="atualizarCliente" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ContratServiceTest.salvarComSuccesso" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteDAOImplTest.buscarTodosClientes" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarera_testes_parte_2.*" />
+          <option name="PATTERN" value="projeto_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tarera_testes_parte_2" />
-      <option name="MAIN_CLASS_NAME" value="tarera_testes_parte_2.ContratServiceTest" />
-      <option name="METHOD_NAME" value="salvarComSuccesso" />
+      <option name="PACKAGE_NAME" value="projeto_02" />
+      <option name="MAIN_CLASS_NAME" value="projeto_02.ClienteDAOImplTest" />
+      <option name="METHOD_NAME" value="buscarTodosClientes" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MulheresTeste.somenteMulheresTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteDAOImplTest.deletarCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarefa_testes_parte_1.*" />
+          <option name="PATTERN" value="projeto_02.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tarefa_testes_parte_1" />
-      <option name="MAIN_CLASS_NAME" value="tarefa_testes_parte_1.MulheresTeste" />
-      <option name="METHOD_NAME" value="somenteMulheresTeste" />
+      <option name="PACKAGE_NAME" value="projeto_02" />
+      <option name="MAIN_CLASS_NAME" value="projeto_02.ClienteDAOImplTest" />
+      <option name="METHOD_NAME" value="deletarCliente" />
       <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ClienteServiceImplTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="projeto_02.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="projeto_02" />
+      <option name="MAIN_CLASS_NAME" value="projeto_02.ClienteServiceImplTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ContratServiceTest" />
-        <item itemvalue="JUnit.ContratServiceTest.erroAoSalvar" />
-        <item itemvalue="JUnit.ContratServiceTest.salvarComSuccesso" />
-        <item itemvalue="JUnit.MulheresTeste.somenteMulheresTeste" />
-        <item itemvalue="JUnit.CalculadoraTeste.testeSoma" />
+        <item itemvalue="JUnit.ClienteServiceImplTest" />
+        <item itemvalue="JUnit.ClienteDAOImplTest" />
+        <item itemvalue="JUnit.ClienteDAOImplTest.deletarCliente" />
+        <item itemvalue="JUnit.ClienteDAOImplTest.buscarTodosClientes" />
+        <item itemvalue="JUnit.ClienteDAOImplTest.atualizarCliente" />
       </list>
     </recent_temporary>
   </component>
@@ -305,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689344545625</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="tarefa testes parte 2">
+      <created>1689347878950</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689347878950</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -334,7 +336,19 @@
     <MESSAGE value="tarefa streams" />
     <MESSAGE value="tarefa testes parte 1" />
     <MESSAGE value="correcao conforme lint" />
-    <option name="LAST_COMMIT_MESSAGE" value="correcao conforme lint" />
+    <MESSAGE value="tarefa testes parte 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tarefa testes parte 2" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/projeto_02/dao/impl/ClienteDAOImpl.java</url>
+          <line>22</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
