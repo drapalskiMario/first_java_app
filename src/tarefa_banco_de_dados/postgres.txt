@@ -1,0 +1,5 @@
+ O PostgreSQL é um Sistema de Gerenciamento de Banco de Dados Relacional (SGBDR).
+ Ele é confiável, seguro, flexível e gratuito (open-source).
+ O PostgreSQL permite criar e organizar tabelas para armazenar dados de forma estruturada.
+ Além disso, oferece recursos avançados para consultas complexas, relacionamentos entre tabelas e garantia de integridade dos dados.
+ É uma ótima opção para quem busca uma solução robusta e escalável para armazenar e manipular informações.

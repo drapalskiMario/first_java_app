@@ -2,11 +2,9 @@ package projeto_02.service.impl;
 
 import projeto_02.dao.IClienteDAO;
 import projeto_02.domain.Cliente;
-import projeto_02.exceptions.ClienteNãoEncontradoException;
 import projeto_02.service.IClienteService;
 
 import java.util.List;
-import java.util.Optional;
 
 public class ClienteServiceImpl implements IClienteService {
 
