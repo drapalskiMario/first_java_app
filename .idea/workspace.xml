@@ -4,22 +4,53 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f7492e59-8407-4914-a549-e63a3f513e7f" name="Changes" comment="tarefa projeto 2">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/postgresql_42_6_0.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/postgresql-42.6.0.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados/postgres.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_2/dao/cliente/ClienteDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_2/dao/cliente/IClienteDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_2/dao/jbdc/FabricaConexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_2/dao/produto/IProdutoDAO.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_2/dao/produto/ProdutoDAOImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_2/domain/Cliente.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_2/domain/Produto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_2/ClienteTeste.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_2/ProdutoTest.java" afterDir="false" />
+    <list default="true" id="f7492e59-8407-4914-a549-e63a3f513e7f" name="Changes" comment="tarefa projeto banco de dados 2">
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/anotacao/ColunaTabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/anotacao/Tabela.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/anotacao/TipoChave.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/IClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/IProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/IVendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/Persistente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/factory/ClienteFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/factory/ProdutoFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/factory/ProdutoQuantidadeFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/factory/VendaFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/generic/GenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/generic/IGenericDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/generic/SingletonMap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/generic/jdbc/ConnectionFactory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/impl/ClienteDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/impl/ProdutoDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/dao/impl/VendaDAO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/domain/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/domain/Produto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/domain/ProdutoQuantidade.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/domain/Venda.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/exceptions/DAOException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/exceptions/MaisDeUmRegistroException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/exceptions/TableException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/exceptions/TipoChaveNaoEncontradaException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/exceptions/TipoElementoNaoConhecidoException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/exemplos.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/services/IClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/services/IProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/services/generic/IGenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/services/generic/impl/GenericService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/services/impl/ClienteService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tarefa_banco_de_dados_3/services/impl/ProdutoService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_3/AllTests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_3/ClienteDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_3/ClienteServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_3/ProdutoDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_3/ProdutoServiceTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_3/VendaDAOTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_3/dao/ClienteDaoMock.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test/tarefa_banco_de_dados_3/dao/ProdutoDaoMock.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/issuestore/index.pb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sonarlint/securityhotspotstore/index.pb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/first_project.iml" beforeDir="false" afterPath="$PROJECT_DIR$/first_project.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/projeto_02/service/impl/ClienteServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/projeto_02/service/impl/ClienteServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/streams/op_intermediarias/Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/streams/op_intermediarias/Map.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,25 +91,25 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Downloaded.Files.Path.Enabled": "false",
-    "Repository.Attach.Annotations": "false",
-    "Repository.Attach.JavaDocs": "false",
-    "Repository.Attach.Sources": "false",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit4",
-    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4": "",
-    "last_opened_file_path": "D:/projects/java/first_project/src/tarefa_reflections",
-    "project.structure.last.edited": "Libraries",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "advanced.settings"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;SONARLINT_PRECOMMIT_ANALYSIS&quot;: &quot;true&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit4&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4&quot;: &quot;&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/projects/java/first_project/src/tarefa_reflections&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
       <recent name="projeto_02.dao.impl" />
@@ -107,92 +138,89 @@
       <recent name="streams.op_terminais" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.ProdutoTest">
-    <configuration name="ClienteTeste" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.AllTests">
+    <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarefa_banco_de_dados_2.*" />
+          <option name="PATTERN" value="tarefa_banco_de_dados_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_2" />
-      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_2.ClienteTeste" />
+      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_3" />
+      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_3.AllTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ClienteTeste.atualizarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ClienteServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarefa_banco_de_dados_2.*" />
+          <option name="PATTERN" value="tarefa_banco_de_dados_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_2" />
-      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_2.ClienteTeste" />
-      <option name="METHOD_NAME" value="atualizarTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="ProdutoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="first_project" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="tarefa_banco_de_dados_2.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_2" />
-      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_2.ProdutoTest" />
+      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_3" />
+      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_3.ClienteServiceTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest.atualizarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProdutoDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarefa_banco_de_dados_2.*" />
+          <option name="PATTERN" value="tarefa_banco_de_dados_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_2" />
-      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_2.ProdutoTest" />
-      <option name="METHOD_NAME" value="atualizarTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_3" />
+      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_3.ProdutoDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ProdutoTest.cadastrarTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="ProdutoServiceTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="first_project" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="tarefa_banco_de_dados_2.*" />
+          <option name="PATTERN" value="tarefa_banco_de_dados_3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_2" />
-      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_2.ProdutoTest" />
-      <option name="METHOD_NAME" value="cadastrarTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_3" />
+      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_3.ProdutoServiceTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="VendaDAOTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="first_project" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tarefa_banco_de_dados_3.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tarefa_banco_de_dados_3" />
+      <option name="MAIN_CLASS_NAME" value="tarefa_banco_de_dados_3.VendaDAOTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.ProdutoTest" />
-        <item itemvalue="JUnit.ClienteTeste" />
-        <item itemvalue="JUnit.ClienteTeste.atualizarTest" />
-        <item itemvalue="JUnit.ProdutoTest.atualizarTest" />
-        <item itemvalue="JUnit.ProdutoTest.cadastrarTest" />
+        <item itemvalue="JUnit.AllTests" />
+        <item itemvalue="JUnit.VendaDAOTest" />
+        <item itemvalue="JUnit.ProdutoServiceTest" />
+        <item itemvalue="JUnit.ProdutoDAOTest" />
+        <item itemvalue="JUnit.ClienteServiceTest" />
       </list>
     </recent_temporary>
   </component>
@@ -324,7 +352,14 @@
       <option name="project" value="LOCAL" />
       <updated>1689737573375</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="tarefa projeto banco de dados 2">
+      <created>1690416553923</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1690416553923</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -355,7 +390,8 @@
     <MESSAGE value="correcao conforme lint" />
     <MESSAGE value="tarefa testes parte 2" />
     <MESSAGE value="tarefa projeto 2" />
-    <option name="LAST_COMMIT_MESSAGE" value="tarefa projeto 2" />
+    <MESSAGE value="tarefa projeto banco de dados 2" />
+    <option name="LAST_COMMIT_MESSAGE" value="tarefa projeto banco de dados 2" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

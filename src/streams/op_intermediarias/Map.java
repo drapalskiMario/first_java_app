@@ -2,7 +2,7 @@ package streams.op_intermediarias;
 
 import streams.Pessoa;
 
-public class Map {
+public class Map<T, T1> {
 
     public static void main(String[] args) {
         var pessoas = new Pessoa().popularPessoa();
